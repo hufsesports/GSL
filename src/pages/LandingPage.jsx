@@ -6,7 +6,14 @@ export default function LandingPage() {
   return (
     <>
       <section className="relative overflow-hidden">
-        <div className="absolute inset-0">
+        <div
+  className="absolute inset-0"
+  style={{
+    backgroundImage: "url('/images/landing.jpg')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}
+/>
           <div className="h-full w-full" style={{ background: 'linear-gradient(135deg, rgba(0,45,86,0.97) 0%, rgba(0,45,86,0.94) 22%, rgba(20,110,122,0.86) 62%, rgba(20,110,122,0.40) 100%)' }} />
           <div className="absolute inset-0 opacity-[0.16]" style={{ backgroundImage: 'linear-gradient(rgba(255,255,255,0.14) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.14) 1px, transparent 1px)', backgroundSize: '86px 86px' }} />
           <div className="absolute inset-0 opacity-20" style={{ backgroundImage: 'radial-gradient(circle at 14% 18%, rgba(255,255,255,0.26) 0, transparent 24%), radial-gradient(circle at 82% 18%, rgba(255,255,255,0.16) 0, transparent 22%), radial-gradient(circle at 78% 78%, rgba(255,255,255,0.14) 0, transparent 26%)' }} />
